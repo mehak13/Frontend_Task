@@ -1,3 +1,32 @@
+#Approach 
+The React app follows a component-based architecture to ensure modularity, scalability, and reusability. Key components like Navbar, TaskList, and TaskDetail are designed to handle specific functionalities. State management is handled locally using React's useState and props to pass data between components. Filtering, sorting, and CRUD operations are implemented to enhance functionality and provide a seamless user experience.
+
+#Thought Process
+1) Structure and Planning:
+Break the app into logical components (e.g., Navbar, TaskList, TaskDetail).
+Define clear props and state to manage data flow and component communication.
+2) Design:
+Prioritize user-friendliness and responsiveness.
+Ensure consistent styling and visual hierarchy.
+3) Functionality:
+Implement CRUD operations for tasks.
+Provide filters, sorting, and status toggles to enhance task management.
+Integrate routing to allow navigation between task list and details.
+
+#Tools Used 
+1) React:
+Core library for building the app.
+React Router for navigation.
+2) Ant Design:
+Pre-built UI components for faster development and a polished look.
+3) CSS:
+Custom styling for components and responsiveness using media queries.
+4) Browser Developer Tools:
+Debugging and testing the app’s responsiveness and functionality.
+5) Code Editor:
+VS Code for writing, managing, and debugging the code.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
