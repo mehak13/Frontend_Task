@@ -1,4 +1,5 @@
 #Approach 
+
 The React app follows a component-based architecture to ensure modularity, scalability, and reusability. Key components like Navbar, TaskList, and TaskDetail are designed to handle specific functionalities. State management is handled locally using React's useState and props to pass data between components. Filtering, sorting, and CRUD operations are implemented to enhance functionality and provide a seamless user experience.
 
 #Thought Process
