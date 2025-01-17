@@ -16,13 +16,13 @@ function TaskForm({ saveTask, currentTask }) {
         priority: currentTask.priority,
       });
     } else {
-      form.resetFields(); // Reset fields when there's no current task
+      form.resetFields(); 
     }
   }, [currentTask, form]);
 
   const handleSubmit = (values) => {
     saveTask(values);
-    form.resetFields(); // Clear the form fields after saving
+    form.resetFields(); 
   };
 
   return (
